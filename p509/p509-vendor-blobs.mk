@@ -25,9 +25,12 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p509/proprietary/lib/libmmipl.so:obj/lib/libmmipl.so \
     vendor/lge/p509/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
     vendor/lge/p509/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
+<<<<<<< HEAD
     vendor/lge/p509/proprietary/lib/libgstk_exp.so:obj/lib/libgstk_exp.so \
     vendor/lge/p509/proprietary/lib/libpbmlib.so:obj/lib/libpbmlib.so \
     vendor/lge/p509/proprietary/lib/libwms.so:obj/lib/libwms.so \
+=======
+>>>>>>> 50cf94c70acbe4b332eceb279de53bf9dc84347b
     vendor/lge/p509/proprietary/lib/liboemcamera.so:obj/lib/liboemcamera.so
 
 
@@ -37,8 +40,14 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p509/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/lge/p509/proprietary/etc/flex/flex.xml:system/etc/flex/flex.xml \
     vendor/lge/p509/proprietary/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
+<<<<<<< HEAD
     vendor/lge/p509/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/lge/p509/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
+=======
+    vendor/lge/p509/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
+    vendor/lge/p509/proprietary/lib/libwms.so:system/lib/libwms.so \
+    vendor/lge/p509/proprietary/lib/libqmi.so:system/lib/libqmi.so \
+>>>>>>> 50cf94c70acbe4b332eceb279de53bf9dc84347b
     vendor/lge/p509/proprietary/lib/libmmgsdilib.so:system/lib/libmmgsdilib.so \
     vendor/lge/p509/proprietary/lib/libril-qcril-hook-oem.so:system/lib/libril-qcril-hook-oem.so \
     vendor/lge/p509/proprietary/lib/libdsm.so:system/lib/libdsm.so \
@@ -47,7 +56,10 @@ PRODUCT_COPY_FILES += \
     vendor/lge/p509/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/lge/p509/proprietary/lib/libauth.so:system/lib/libauth.so \
     vendor/lge/p509/proprietary/lib/libril.so:system/lib/libril.so \
+<<<<<<< HEAD
     vendor/lge/p509/proprietary/lib/libwms.so:system/lib/libwms.so \
+=======
+>>>>>>> 50cf94c70acbe4b332eceb279de53bf9dc84347b
     vendor/lge/p509/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/lge/p509/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
     vendor/lge/p509/proprietary/lib/libgsdi_exp.so:system/lib/libgsdi_exp.so \
