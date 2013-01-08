@@ -76,7 +76,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/thunderc/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/thunderc/proprietary/bin/wiperiface:system/bin/wiperiface \
     vendor/lge/thunderc/proprietary/lib/hw/sensors.thunderc.so:system/lib/hw/sensors.thunderc.so
-	    #vendor/lge/thunderc/proprietary/lib/libwvm.so:system/lib/libwvm.so \
+#	    #vendor/lge/thunderc/proprietary/lib/libwvm.so:system/lib/libwvm.so \
 #     vendor/lge/thunderc/proprietary/lib/libcamera.so:system/lib/libcamera.so \
 		
 # bootimage
