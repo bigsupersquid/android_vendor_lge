@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/thunderc/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/lge/thunderc/proprietary/lib/libmmipl.so:obj/lib/libmmipl.so \
     vendor/lge/thunderc/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
-    vendor/lge/thunderc/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
 	vendor/lge/thunderc/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
 	vendor/lge/thunderc/proprietary/lib/libnv.so:obj/lib/libnv.so \
     vendor/lge/thunderc/proprietary/lib/liboemcamera.so:obj/lib/liboemcamera.so
@@ -34,6 +33,7 @@ PRODUCT_COPY_FILES += \
 ###################### DON'T EDIT ###################################
 PRODUCT_COPY_FILES += \
     vendor/lge/thunderc/proprietary/bin/qmuxd:system/bin/qmuxd \
+	vendor/lge/thunderc/proprietary/bin/rild:system/bin/rild \
     vendor/lge/thunderc/proprietary/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
     vendor/lge/thunderc/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/lge/thunderc/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
@@ -64,7 +64,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/thunderc/proprietary/lib/libsnd.so:system/lib/libsnd.so \
     vendor/lge/thunderc/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/lge/thunderc/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/lge/thunderc/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/lge/thunderc/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/thunderc/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/thunderc/proprietary/etc/firmware/BCM4325D1_004.002.004.0218.0248.hcd:system/etc/firmware/BCM4325D1_004.002.004.0218.0248.hcd \
@@ -78,7 +77,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/thunderc/proprietary/bin/wiperiface:system/bin/wiperiface \
     vendor/lge/thunderc/proprietary/lib/hw/sensors.thunderc.so:system/lib/hw/sensors.thunderc.so
 	    #vendor/lge/thunderc/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-		#	vendor/lge/thunderc/proprietary/bin/rild:system/bin/rild \
+#     vendor/lge/thunderc/proprietary/lib/libcamera.so:system/lib/libcamera.so \
 		
 # bootimage
 PRODUCT_COPY_FILES += \
