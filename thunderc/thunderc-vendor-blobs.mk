@@ -26,6 +26,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/thunderc/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
 	vendor/lge/thunderc/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
 	vendor/lge/thunderc/proprietary/lib/libnv.so:obj/lib/libnv.so \
+	vendor/lge/thunderc/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/lge/thunderc/proprietary/lib/liboemcamera.so:obj/lib/liboemcamera.so
 
 
@@ -34,6 +35,7 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     vendor/lge/thunderc/proprietary/bin/qmuxd:system/bin/qmuxd \
 	vendor/lge/thunderc/proprietary/bin/rild:system/bin/rild \
+    vendor/lge/thunderc/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/lge/thunderc/proprietary/lib/libgstk_exp.so:system/lib/libgstk_exp.so \
     vendor/lge/thunderc/proprietary/lib/libqmi.so:system/lib/libqmi.so \
     vendor/lge/thunderc/proprietary/lib/libpbmlib.so:system/lib/libpbmlib.so \
@@ -77,24 +79,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/thunderc/proprietary/bin/wiperiface:system/bin/wiperiface \
     vendor/lge/thunderc/proprietary/lib/hw/sensors.thunderc.so:system/lib/hw/sensors.thunderc.so
 #	    #vendor/lge/thunderc/proprietary/lib/libwvm.so:system/lib/libwvm.so \
-#     vendor/lge/thunderc/proprietary/lib/libcamera.so:system/lib/libcamera.so \
+
 		
-# bootimage
-PRODUCT_COPY_FILES += \
-    vendor/lge/thunderc/proprietary/sbin/chargerlogo:root/sbin/chargerlogo \
-    vendor/lge/thunderc/proprietary/chargerimages/black_bg.rle:root/chargerimages/black_bg.rle \
-    vendor/lge/thunderc/proprietary/chargerimages/battery_bg.rle:root/chargerimages/battery_bg.rle \
-    vendor/lge/thunderc/proprietary/chargerimages/battery_ani_01.rle:root/chargerimages/battery_ani_01.rle \
-    vendor/lge/thunderc/proprietary/chargerimages/battery_ani_02.rle:root/chargerimages/battery_ani_02.rle \
-    vendor/lge/thunderc/proprietary/chargerimages/battery_ani_03.rle:root/chargerimages/battery_ani_03.rle \
-    vendor/lge/thunderc/proprietary/chargerimages/battery_ani_04.rle:root/chargerimages/battery_ani_04.rle \
-    vendor/lge/thunderc/proprietary/chargerimages/battery_ani_05.rle:root/chargerimages/battery_ani_05.rle \
-    vendor/lge/thunderc/proprietary/chargerimages/battery_charging_01.rle:root/chargerimages/battery_charging_01.rle \
-    vendor/lge/thunderc/proprietary/chargerimages/battery_charging_02.rle:root/chargerimages/battery_charging_02.rle \
-    vendor/lge/thunderc/proprietary/chargerimages/battery_charging_03.rle:root/chargerimages/battery_charging_03.rle \
-    vendor/lge/thunderc/proprietary/chargerimages/battery_charging_04.rle:root/chargerimages/battery_charging_04.rle \
-    vendor/lge/thunderc/proprietary/chargerimages/battery_charging_05.rle:root/chargerimages/battery_charging_05.rle \
-    vendor/lge/thunderc/proprietary/chargerimages/battery_charging_06.rle:root/chargerimages/battery_charging_06.rle \
-    vendor/lge/thunderc/proprietary/chargerimages/battery_wait_ani_01.rle:root/chargerimages/battery_wait_ani_01.rle \
-    vendor/lge/thunderc/proprietary/chargerimages/battery_wait_ani_02.rle:root/chargerimages/battery_wait_ani_02.rle \
-    vendor/lge/thunderc/proprietary/chargerimages/battery_notenough.rle:root/chargerimages/battery_notenough.rle
+
