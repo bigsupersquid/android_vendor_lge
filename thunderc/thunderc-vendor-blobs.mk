@@ -21,7 +21,6 @@
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ######################    DEPENDENCY SECTION  #######################
 PRODUCT_COPY_FILES += \
-    vendor/lge/thunderc/proprietary/lib/libril.so:obj/lib/libril.so \
     vendor/lge/thunderc/proprietary/lib/libmmipl.so:obj/lib/libmmipl.so \
     vendor/lge/thunderc/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
     vendor/lge/thunderc/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
@@ -43,7 +42,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/thunderc/proprietary/lib/liboncrpc.so:system/lib/liboncrpc.so \
     vendor/lge/thunderc/proprietary/lib/libnv.so:system/lib/libnv.so \
     vendor/lge/thunderc/proprietary/lib/libauth.so:system/lib/libauth.so \
-    vendor/lge/thunderc/proprietary/lib/libril.so:system/lib/libril.so \
     vendor/lge/thunderc/proprietary/lib/libwms.so:system/lib/libwms.so \
     vendor/lge/thunderc/proprietary/lib/libdiag.so:system/lib/libdiag.so \
     vendor/lge/thunderc/proprietary/lib/liboem_rapi.so:system/lib/liboem_rapi.so \
