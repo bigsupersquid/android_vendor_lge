@@ -51,7 +51,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/thunderc/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/lge/thunderc/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/lge/thunderc/proprietary/lib/liblgerft.so:system/lib/liblgerft.so \
-	vendor/lge/thunderc/proprietary/lib/liblgdrmwbxml.so:system/lib/liblgdrmwbxml.so \
+    vendor/lge/thunderc/proprietary/lib/liblgdrmwbxml.so:system/lib/liblgdrmwbxml.so \
     vendor/lge/thunderc/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/lge/thunderc/proprietary/lib/libdll.so:system/lib/libdll.so \
     vendor/lge/thunderc/proprietary/lib/libbcmwl.so:system/lib/libbcmwl.so \
@@ -62,14 +62,15 @@ PRODUCT_COPY_FILES += \
     vendor/lge/thunderc/proprietary/lib/libsnd.so:system/lib/libsnd.so \
     vendor/lge/thunderc/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/lge/thunderc/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/lge/thunderc/proprietary/lib/libcamera.so:system/lib/libcamera.so \    vendor/lge/thunderc/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
+    vendor/lge/thunderc/proprietary/lib/libcamera.so:system/lib/libcamera.so \
+    vendor/lge/thunderc/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/thunderc/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/thunderc/proprietary/etc/firmware/BCM4325D1_004.002.004.0218.0248.hcd:system/etc/firmware/BCM4325D1_004.002.004.0218.0248.hcd \
     vendor/lge/thunderc/proprietary/etc/wl/rtecdc.bin:system/etc/wl/rtecdc.bin \
     vendor/lge/thunderc/proprietary/etc/wl/rtecdc-apsta.bin:system/etc/wl/rtecdc-apsta.bin \
     vendor/lge/thunderc/proprietary/etc/wl/rtecdc-mfgtest.bin:system/etc/wl/rtecdc-mfgtest.bin \
     vendor/lge/thunderc/proprietary/bin/ami304d:system/bin/ami304d \
-	vendor/lge/thunderc/proprietary/bin/port-bridge:system/bin/port-bridge \
+    vendor/lge/thunderc/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/lge/thunderc/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/thunderc/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/thunderc/proprietary/bin/wiperiface:system/bin/wiperiface \
