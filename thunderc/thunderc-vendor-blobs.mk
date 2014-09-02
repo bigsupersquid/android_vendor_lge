@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/thunderc/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
     vendor/lge/thunderc/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
     vendor/lge/thunderc/proprietary/lib/libnv.so:obj/lib/libnv.so \
-    vendor/lge/thunderc/proprietary/lib/libcamera.so:obj/lib/libcamera.so \
     vendor/lge/thunderc/proprietary/lib/liboemcamera.so:obj/lib/liboemcamera.so
 
 
@@ -62,7 +61,6 @@ PRODUCT_COPY_FILES += \
     vendor/lge/thunderc/proprietary/lib/libsnd.so:system/lib/libsnd.so \
     vendor/lge/thunderc/proprietary/lib/libaudioeq.so:system/lib/libaudioeq.so \
     vendor/lge/thunderc/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
-    vendor/lge/thunderc/proprietary/lib/libcamera.so:system/lib/libcamera.so \
     vendor/lge/thunderc/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
     vendor/lge/thunderc/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
     vendor/lge/thunderc/proprietary/etc/firmware/BCM4325D1_004.002.004.0218.0248.hcd:system/etc/firmware/BCM4325D1_004.002.004.0218.0248.hcd \
