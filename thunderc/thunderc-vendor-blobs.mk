@@ -23,8 +23,8 @@
 PRODUCT_COPY_FILES += \
     vendor/lge/thunderc/proprietary/lib/libmmipl.so:obj/lib/libmmipl.so \
     vendor/lge/thunderc/proprietary/lib/libmmjpeg.so:obj/lib/libmmjpeg.so \
-    vendor/lge/thunderc/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
-    vendor/lge/thunderc/proprietary/lib/libnv.so:obj/lib/libnv.so \
+	vendor/lge/thunderc/proprietary/lib/liboncrpc.so:obj/lib/liboncrpc.so \
+	vendor/lge/thunderc/proprietary/lib/libnv.so:obj/lib/libnv.so \
     vendor/lge/thunderc/proprietary/lib/liboemcamera.so:obj/lib/liboemcamera.so
 
 
@@ -50,7 +50,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/thunderc/proprietary/lib/libcm.so:system/lib/libcm.so \
     vendor/lge/thunderc/proprietary/lib/libqueue.so:system/lib/libqueue.so \
     vendor/lge/thunderc/proprietary/lib/liblgerft.so:system/lib/liblgerft.so \
-    vendor/lge/thunderc/proprietary/lib/liblgdrmwbxml.so:system/lib/liblgdrmwbxml.so \
+	vendor/lge/thunderc/proprietary/lib/liblgdrmwbxml.so:system/lib/liblgdrmwbxml.so \
     vendor/lge/thunderc/proprietary/lib/libdss.so:system/lib/libdss.so \
     vendor/lge/thunderc/proprietary/lib/libdll.so:system/lib/libdll.so \
     vendor/lge/thunderc/proprietary/lib/libbcmwl.so:system/lib/libbcmwl.so \
@@ -68,7 +68,7 @@ PRODUCT_COPY_FILES += \
     vendor/lge/thunderc/proprietary/etc/wl/rtecdc-apsta.bin:system/etc/wl/rtecdc-apsta.bin \
     vendor/lge/thunderc/proprietary/etc/wl/rtecdc-mfgtest.bin:system/etc/wl/rtecdc-mfgtest.bin \
     vendor/lge/thunderc/proprietary/bin/ami304d:system/bin/ami304d \
-    vendor/lge/thunderc/proprietary/bin/port-bridge:system/bin/port-bridge \
+	vendor/lge/thunderc/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/lge/thunderc/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/lge/thunderc/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/lge/thunderc/proprietary/bin/wiperiface:system/bin/wiperiface \
@@ -77,23 +77,3 @@ PRODUCT_COPY_FILES += \
 		#	vendor/lge/thunderc/proprietary/bin/rild:system/bin/rild \
 		     #vendor/lge/thunderc/proprietary/lib/libcamera.so:system/lib/libcamera.so \
 		
-# bootimage
-# since offiline charging broken, don't need this cruft
-#PRODUCT_COPY_FILES += \
-#    vendor/lge/thunderc/proprietary/sbin/chargerlogo:root/sbin/chargerlogo \
-#    vendor/lge/thunderc/proprietary/chargerimages/black_bg.rle:root/chargerimages/black_bg.rle \
-#    vendor/lge/thunderc/proprietary/chargerimages/battery_bg.rle:root/chargerimages/battery_bg.rle \
-#    vendor/lge/thunderc/proprietary/chargerimages/battery_ani_01.rle:root/chargerimages/battery_ani_01.rle \
-#    vendor/lge/thunderc/proprietary/chargerimages/battery_ani_02.rle:root/chargerimages/battery_ani_02.rle \
-#    vendor/lge/thunderc/proprietary/chargerimages/battery_ani_03.rle:root/chargerimages/battery_ani_03.rle \
-#    vendor/lge/thunderc/proprietary/chargerimages/battery_ani_04.rle:root/chargerimages/battery_ani_04.rle \
-#    vendor/lge/thunderc/proprietary/chargerimages/battery_ani_05.rle:root/chargerimages/battery_ani_05.rle \
-#    vendor/lge/thunderc/proprietary/chargerimages/battery_charging_01.rle:root/chargerimages/battery_charging_01.rle \
-#    vendor/lge/thunderc/proprietary/chargerimages/battery_charging_02.rle:root/chargerimages/battery_charging_02.rle \
-#    vendor/lge/thunderc/proprietary/chargerimages/battery_charging_03.rle:root/chargerimages/battery_charging_03.rle \
-#    vendor/lge/thunderc/proprietary/chargerimages/battery_charging_04.rle:root/chargerimages/battery_charging_04.rle \
-#    vendor/lge/thunderc/proprietary/chargerimages/battery_charging_05.rle:root/chargerimages/battery_charging_05.rle \
-#    vendor/lge/thunderc/proprietary/chargerimages/battery_charging_06.rle:root/chargerimages/battery_charging_06.rle \
-#    vendor/lge/thunderc/proprietary/chargerimages/battery_wait_ani_01.rle:root/chargerimages/battery_wait_ani_01.rle \
-#    vendor/lge/thunderc/proprietary/chargerimages/battery_wait_ani_02.rle:root/chargerimages/battery_wait_ani_02.rle \
-#    vendor/lge/thunderc/proprietary/chargerimages/battery_notenough.rle:root/chargerimages/battery_notenough.rle
