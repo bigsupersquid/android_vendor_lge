@@ -27,6 +27,27 @@ PRODUCT_COPY_FILES += \
 	vendor/lge/thunderc/proprietary/lib/libnv.so:obj/lib/libnv.so \
     vendor/lge/thunderc/proprietary/lib/liboemcamera.so:obj/lib/liboemcamera.so
 
+# OMX
+PRODUCT_COPY_FILES += \
+	vendor/lge/thunderc/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
+	vendor/lge/thunderc/proprietary/lib/libOmxAacEnc.so:system/lib/libOmxAacEnc.so \
+	vendor/lge/thunderc/proprietary/lib/libOmxAdpcmDec.so:system/lib/libOmxAdpcmDec.so \
+	vendor/lge/thunderc/proprietary/lib/libOmxAmrDec.so:system/lib/libOmxAmrDec.so \
+	vendor/lge/thunderc/proprietary/lib/libOmxAmrEnc.so:system/lib/libOmxAmrEnc.so \
+	vendor/lge/thunderc/proprietary/lib/libOmxAmrRtpDec.so:system/lib/libOmxAmrRtpDec.so \
+	vendor/lge/thunderc/proprietary/lib/libOmxAmrwbDec.so:system/lib/libOmxAmrwbDec.so \
+	vendor/lge/thunderc/proprietary/lib/libOmxEvrcHwDec.so:system/lib/libOmxEvrcHwDec.so \
+	vendor/lge/thunderc/proprietary/lib/libOmxEvrcEnc.so:system/lib/libOmxEvrcEnc.so \
+	vendor/lge/thunderc/proprietary/lib/libOmxH264Dec.so:system/lib/libOmxH264Dec.so \
+	vendor/lge/thunderc/proprietary/lib/libOmxMp3Dec.so:system/lib/libOmxMp3Dec.so \
+	vendor/lge/thunderc/proprietary/lib/libOmxMpeg4Dec.so:system/lib/libOmxMpeg4Dec.so \
+	vendor/lge/thunderc/proprietary/lib/libOmxOn2Dec.so:system/lib/libOmxOn2Dec.so \
+	vendor/lge/thunderc/proprietary/lib/libOmxQcelp13Enc.so:system/lib/libOmxQcelp13Enc.so \
+	vendor/lge/thunderc/proprietary/lib/libOmxQcelpHwDec.so:system/lib/libOmxQcelpHwDec.so \
+	vendor/lge/thunderc/proprietary/lib/libOmxWmaDec.so:system/lib/libOmxWmaDec.so \
+	vendor/lge/thunderc/proprietary/lib/libOmxWmvDec.so:system/lib/libOmxWmvDec.so \
+	vendor/lge/thunderc/proprietary/lib/libmm-adspsvc.so:system/lib/libmm-adspsvc.so \
+	vendor/lge/thunderc/proprietary/lib/libOmxVidEnc.so:system/lib/libOmxVidEnc.so
 
 #!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 ###################### DON'T EDIT ###################################
